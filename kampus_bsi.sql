@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 29 Mar 2018 pada 10.05
+-- Waktu pembuatan: 29 Mar 2018 pada 10.54
 -- Versi server: 10.1.31-MariaDB
 -- Versi PHP: 7.2.3
 
@@ -33,8 +33,8 @@ CREATE TABLE `data siswa kelas 12.2d.07` (
   `Nama` varchar(30) NOT NULL,
   `TTL` varchar(50) NOT NULL,
   `Alamat` varchar(100) NOT NULL,
-  `Agama` varchar(20) NOT NULL,
-  `Status` enum('Kawin','Belum Kawin','Jomblo','Pacaran','Cerai','Pisah Ranjang') NOT NULL
+  `Agama` enum('Islam','Kristen','Katholik','Hindu','Budha','Kongwuchu','Lain-Lain') NOT NULL,
+  `Status` enum('Kawin','Belum Kawin','Jomblo','Pacaran','Cerai','Pisah Ranjang','Lain-Lain') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
